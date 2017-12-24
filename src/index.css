@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font: 16px "Century Gothic", Futura, sans-serif;
+}
+
+body {
+  margin: 20px;
+}
+

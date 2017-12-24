@@ -1,0 +1,59 @@
+.main {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.main__controls {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+
+.main__input {
+  position: relative;
+  padding: 0px 50px 0px 0px;
+  min-width: 285px;
+  max-width: 400px;
+}
+
+.main__range {
+  padding:  0px;
+  min-width: 285px;
+  max-width: 400px;
+}
+
+.main__range-title {
+  padding: 0px 0px 5px 0px;
+}
+
+.main__typeahead {
+
+}
+
+.main__button-wrap {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.main__button {
+  outline: none;
+}
+
+.main__button:active,
+.main__button:focus{
+  outline: none!important;
+}
+
+@media (max-width: 768px) {
+
+  .main__controls {
+    display: block;
+  }
+
+  .main__range {
+    margin-bottom: 20px;
+  }
+}
